@@ -14,4 +14,7 @@ function QuoteCopyRange() {
   
   var src = selected.getSheet().getRange(selected.getRow() - 1, selected.getColumn(), 1, selected.getLastColumn() - selected.getColumn() + 1);
   src.copyTo(selected);
+  
+  var newActiveRange = selected.getSheet().getRange(selected.getRow(), selected.getLastColumn() + 1);
+  spreadsheet.setActiveRange(newActiveRange);
 }
