@@ -1,5 +1,6 @@
 ---
 title: Separate Documentation Page
+layout: template
 filename: docs.md
 ---
 
