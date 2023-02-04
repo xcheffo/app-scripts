@@ -1,7 +1,7 @@
---------
+---
 title: Separate Documentation Page
 filename: docs.md
---------
+---
 
 # Documentation Page
 
